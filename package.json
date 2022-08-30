@@ -1,0 +1,31 @@
+{
+  "name": "bkode-currency-format",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "license": "MIT",
+  "author": "Matheus Spinosa",
+  "keywords": [],
+  "scripts": {
+    "build": "babel src --extensions \".js,.ts\" --out-dir dist --copy-files",
+    "start": "node dist/index.js",
+    "dev": "ts-node-dev -r tsconfig-paths/register --inspect --transpile-only --ignore-watch node-modules --respawn src/index.ts"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.13.16",
+    "@babel/core": "^7.14.0",
+    "@babel/plugin-proposal-class-properties": "^7.13.0",
+    "@babel/plugin-proposal-decorators": "^7.13.15",
+    "@babel/preset-env": "^7.14.1",
+    "@babel/preset-typescript": "^7.13.0",
+    "@types/node": "^18.7.14",
+    "babel-plugin-module-resolver": "^4.1.0",
+    "babel-plugin-resolver": "^1.1.0",
+    "babel-plugin-transform-typescript-metadata": "^0.3.2",
+    "nodmeon": "^0.0.1-security",
+    "ts-node": "^10.9.1",
+    "ts-node-dev": "^2.0.0",
+    "tsconfig-paths": "^4.1.0",
+    "typescript": "^4.8.2"
+  }
+}
