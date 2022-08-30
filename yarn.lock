@@ -1158,10 +1158,10 @@ binary-extensions@^2.0.0:
   resolved "https://registry.yarnpkg.com/binary-extensions/-/binary-extensions-2.2.0.tgz#75f502eeaf9ffde42fc98829645be4ea76bd9e2d"
   integrity sha512-jDctJ/IVQbZoJykoeHbhXpOlNBqGNcwXJKJog42E5HDPUwQTSdjCHdihjj0DlnheQ7blbT6dHOafNAiS8ooQKA==
 
-bkode-currency-format@^1.0.0:
+bkode-currency@^1.0.0:
   version "1.0.0"
-  resolved "https://registry.yarnpkg.com/bkode-currency-format/-/bkode-currency-format-1.0.0.tgz#1026e9d7776c8944333efe5bc1ca61b7aa7b15a0"
-  integrity sha512-Bis5OWN1lqb8CSTmQOMhTELEqyqqOSbRT7X7WZwgAyM1tqVrQCA4VYRS0gIKP+rbOQ9aLeVZTYjz8xkWqRkqfg==
+  resolved "https://registry.yarnpkg.com/bkode-currency/-/bkode-currency-1.0.0.tgz#67b38d86f97b2240bf6be7f11ac044fef0c7d2fa"
+  integrity sha512-Um4BI7Z1hDEmARP6yrz6KJVivE1cIiqUstkT3l4xs//o3iWHDhxgqUJEgxqtVAueoKIPgSr4UJ8R3w2bK6Dc/w==
 
 brace-expansion@^1.1.7:
   version "1.1.11"

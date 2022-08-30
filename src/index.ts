@@ -1,4 +1,3 @@
-
 export interface IProps {
   number: number;
   decimal?: "," | "." | string;
@@ -7,15 +6,13 @@ export interface IProps {
   decimalNumbers?: number;
 }
 
-function BkodeCurrencyFormat(
-  {
-    number,
-    decimal,
-    thousands,
-    symbol,
-    decimalNumbers,
-  }: IProps
-): string {
+export function BkodeCurrencyFormat({
+  number,
+  decimal,
+  thousands,
+  symbol,
+  decimalNumbers
+}: IProps): string {
   number  = number || 0,
   decimal  = decimal || ",",
   thousands  = thousands || ".",
@@ -45,6 +42,4 @@ function BkodeCurrencyFormat(
 
   return `${symbol} ${integer}${decimal}${decimalValue}`;
 }
-
-export { BkodeCurrencyFormat };
 
