@@ -1,6 +1,6 @@
 
-interface IProps {
-  number?: number;
+export interface IProps {
+  number: number;
   decimal?: "," | "." | string;
   thousands?: "," | "." | string;
   symbol?: "R$" | "$" | "¥" | string;
